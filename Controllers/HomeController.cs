@@ -26,7 +26,7 @@ namespace KubernetesAzure.Controllers
             return View(_dbContext.Employees.OrderBy(e => e.Nombre));
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() 
         {
             return View();
         }
