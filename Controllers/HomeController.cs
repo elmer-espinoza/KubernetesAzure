@@ -11,7 +11,6 @@ namespace KubernetesAzure.Controllers
         public HomeController(EmployeeContext dbcontext) { _dbContext = dbcontext; }
 
         //private readonly ILogger<HomeController> _logger;
-
         //public HomeController(ILogger<HomeController> logger)
         //{
         //    _logger = logger;
