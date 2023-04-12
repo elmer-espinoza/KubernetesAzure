@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: elmerespinozakubernetesazure 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elmerespinozakubernetesazure
+  template:
+    metadata:
+      labels:
+        app: elmerespinozakubernetesazure 
+    spec:
+      containers:
+        - name: elmerespinozakubernetesazure 
+          image: azureelmerregistry.azurecr.io/elmerespinozakubernetesazure
+          ports:
+          - containerPort: 80
