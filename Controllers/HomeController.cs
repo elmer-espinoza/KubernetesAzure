@@ -13,8 +13,9 @@ namespace KubernetesAzure.Controllers
         //private readonly ILogger<HomeController> _logger;
         //public HomeController(ILogger<HomeController> logger)
         //{
-        //    _logger = logger;
+        //    _logger = logger; 
         //}
+        //______________________________________________________
 
         public IActionResult Index()
         {
